@@ -1,0 +1,11 @@
+{
+	"name": "crd-bfm",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "live-server"
+	},
+	"author": "",
+	"license": "ISC"
+}

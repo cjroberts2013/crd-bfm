@@ -1,0 +1,147 @@
+::-moz-selection { 
+    color: red;
+    background: #c1af03;
+}
+::selection {
+    color: red;
+    background: #c1af03;
+}
+a:hover, a:focus, a:active, a.link-white:hover, a.link-white:focus, a.link-white:active {
+	color: #c1af03;
+	outline:none;
+	text-decoration:none;
+}
+.bg-primary {
+	background-color:#c1af03;
+}
+.primary-color{
+	color:#c1af03;
+}
+.navbar.navbar-trasparent .navbar-nav > li > a:focus, .navbar.navbar-trasparent .navbar-nav > li > a:hover,
+.navbar.navbar-trasparent .navbar-nav > .active > a, .navbar.navbar-trasparent .navbar-nav > .active > a:focus, .navbar.navbar-trasparent .navbar-nav > .active > a:hover {
+	color:#c1af03;
+}
+.navbar-transparent .navbar-nav > li > a:focus, .navbar-transparent .navbar-nav > li > a:hover,
+.navbar-transparent .navbar-nav > .active > a, .navbar-transparent .navbar-nav > .active > a:focus, .navbar-transparent .navbar-nav > .active > a:hover {
+	color:#c1af03;
+}
+.section-title-divider::after {
+    background-color: #c1af03;
+}
+.section-title-divider.primary-divider::after {
+	border: 4px solid #c1af03;
+}
+.section-title-divider.primary-divider::before {
+	background-color: #c1af03;
+}
+h3.under-line::before {
+    background-color: #c1af03;
+}
+.btn.btn-bg-white {
+    color: #c1af03;
+}
+.btn.btn-normal {
+    border-color: #c1af03;
+    color: #c1af03;
+}
+.btn.btn-normal:hover, .btn.btn-normal:active, .btn.btn-normal:focus {
+	color: #fff;
+}
+ul.star-list > li:hover:before {
+	color:#c1af03;
+}
+blockquote {
+	border-left-color:#c1af03;
+}
+blockquote cite {
+	color:#c1af03;
+}
+blockquote::before {
+    color: #c1af03;
+}
+.service-image {
+	color:#c1af03;
+}
+.service-box-col:hover .service-image {
+	background-color: #c1af03;
+}
+.service-box-col .service-title.title-bordered:before {
+	background-color: #c1af03;
+}
+.portfolio.filter-active {
+	background-color:#c1af03;
+	color:#fff;
+}
+.price-amount {
+    background-color: #c1af03;
+}
+.price-main:hover .price-title, .pricing-table.featured .price-main .price-title {
+	background-color:#c1af03;
+}
+.team-wrap:hover h3{
+	color: #c1af03;
+}
+.team-wrap:hover .team-social-links > ul > li > a{
+	background-color: #c1af03;
+}
+.owl-carousel.primary-dots .owl-dot > span{
+	border: 1px solid #c1af03;
+}
+.input-group.subscribe-box .form-control:focus {
+    border-color: #c1af03;
+}
+.contact-form .form-control:hover, .contact-form .form-control:active, .contact-form .form-control:focus {
+	border-bottom-color: #c1af03;
+}
+.nav.footer-social > li > a:hover{
+	color: #c1af03;
+}
+.timeline:before {
+    border-left: 3px dotted #c1af03;
+}
+.tldate {
+    background-color: #c1af03;
+}
+.timeline li .timeline-panel {
+	border: 1px solid #c1af03;
+}
+.timeline li .timeline-panel:before {
+	border-left: 15px solid #c1af03;
+	border-right: 0 solid #c1af03;
+}
+.timeline li .tl-circ {
+    background-color: #c1af03;
+}
+.progress-bar-default {
+	background-color: #c1af03;
+}
+.color-panel-close:hover {
+	color: #c1af03;
+}
+.feature-icon {
+	background: #c1af03;
+}
+.primary-section-bg {
+    background: rgba(193, 175, 3, 0.9) none repeat scroll 0 0;
+}
+.form-control:focus{
+	border-color: rgba(193, 175, 3, 0.9);
+}
+.navbar-default {
+	background-color:rgba(193, 175, 3, 0.9);
+}
+section.bottom-border {
+	border-bottom: solid 1px rgba(193, 175, 3, 0.3);
+}
+.btn-default:hover, .btn-default:focus, .btn-default:active,
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default.focus:active, .btn-default:active:focus, .btn-default:active:hover {
+	background-color:rgba(193, 175, 3, 0.7);
+}
+.owl-nav > div:hover{
+	background: rgba(193, 175, 3, 0.9) none repeat scroll 0 0;
+}
+.input-group.subscribe-box .form-control:focus {
+	-webkit-box-shadow: 0 1px 1px rgba(193, 175, 3, 0.7) inset, 0 0 8px rgba(102, 175, 233, 0.6);
+	-moz-box-shadow: 0 1px 1px rgba(193, 175, 3, 0.7) inset, 0 0 8px rgba(102, 175, 233, 0.6);
+	box-shadow: 0 1px 1px rgba(193, 175, 3, 0.7) inset, 0 0 8px rgba(102, 175, 233, 0.6);
+}
