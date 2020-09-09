@@ -1486,25 +1486,21 @@ a.comment::before {
 	padding: 0 10px;
 }
 .nav.footer-social > li > a {
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	border-radius: 50%;
 	height: 40px;
 	line-height: 40px;
-	padding: 0;
-	width: 40px;
+	padding: 0 1rem;
 	color: #fff;
 }
 .nav.footer-social > li > a:hover {
 	color: #084296;
 	background-color: #fff;
-}
-.nav.footer-social > li > a > i {
-	line-height: 40px;
+	border-radius: 50px;
 }
 /* 21. Copyright Styles */
-.copyright-text a {
+.copyright-text {
 	color: #fff;
+	font-size: 1rem;
+	margin: 0;
 }
 .copyright-text a:hover {
 	color: #ccc;

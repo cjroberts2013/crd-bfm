@@ -45,10 +45,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset( $_POST['mcemail'] ) ) {
 
 	// Set the recipient email address.
 	// FIXME: Update this to your desired email address.
-	$recipient = "RECIPIENT_MAIL";
+	$recipient = "cjroberts2013@gmail.com";
 
 	// Set the email subject.
-	$subject = "Heaven contact from $name";
+	$subject = "BFM contact from $name";
 
 	// Build the email content.
 	$email_content = "Name: $name\n";
