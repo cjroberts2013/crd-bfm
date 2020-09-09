@@ -170,7 +170,7 @@ nav.boxed {
 	background: rgba(8, 66, 150, 0.9) none repeat scroll 0 0;
 }
 .black-section-bg {
-	background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
+	background: rgba(0, 0, 0, 0.4) none repeat scroll 0 0;
 }
 .gray-section-bg {
 	background-color: #e2e1e0;
@@ -717,8 +717,8 @@ section h2.section-title-divider {
 	color: #fff;
 	font-weight: 600;
 	padding: 14px 30px;
-	border: solid 1px #ffffff;
-	background-color: transparent;
+	border: solid 1px #084296;
+	background-color: #084296;
 
 	-webkit-transition: all ease 0.5s;
 	-moz-transition: all ease 0.5s;
@@ -745,7 +745,9 @@ section h2.section-title-divider {
 .btn-danger:focus,
 .btn-danger:active {
 	border: solid 1px transparent;
-	color: #ffffff;
+	color: #fff;
+	border-color: #333;
+	background-color: #333;
 	outline: none;
 	-webkit-box-shadow: 0 5px 30px -10px rgba(0, 0, 0, 0.3);
 	-moz-box-shadow: 0 5px 30px -10px rgba(0, 0, 0, 0.3);
@@ -760,13 +762,13 @@ section h2.section-title-divider {
 .btn-default.focus:active,
 .btn-default:active:focus,
 .btn-default:active:hover {
-	background-color: rgba(8, 66, 150, 0.7);
+	background-color: #333;
+	border-color: #333;
 	color: #fff;
 	outline: none;
 }
 .btn.btn-bg-white {
 	background-color: #fff;
-	color: #084296;
 	-webkit-box-shadow: 0 0 10px rgba(57, 59, 102, 0.07);
 	-moz-box-shadow: 0 0 10px rgba(57, 59, 102, 0.07);
 	box-shadow: 0 0 10px rgba(57, 59, 102, 0.07);
@@ -777,7 +779,7 @@ section h2.section-title-divider {
 .btn.btn-bg-white:hover,
 .btn.btn-bg-white:focus,
 .btn.btn-bg-white:active {
-	background: transparent none repeat scroll 0 0;
+	background: none repeat scroll 0 0;
 	border-color: #fff;
 	color: #fff;
 	outline: none;
@@ -787,16 +789,16 @@ section h2.section-title-divider {
 }
 .btn.btn-normal {
 	border-color: #084296;
-	color: #084296;
+	color: #fff;
 }
 .btn.btn-normal:hover,
 .btn.btn-normal:active,
 .btn.btn-normal:focus {
 	color: #fff;
 	border-color: transparent;
-	-webkit-box-shadow: 0 0 10px rgba(57, 59, 102, 0.07);
-	-moz-box-shadow: 0 0 10px rgba(57, 59, 102, 0.07);
-	box-shadow: 0 0 10px rgba(57, 59, 102, 0.07);
+	-webkit-box-shadow: 0 0 10px rgba(57, 59, 102, 1);
+	-moz-box-shadow: 0 0 10px rgba(57, 59, 102, 1);
+	box-shadow: 0 0 10px rgba(57, 59, 102, 1);
 }
 .btn-rounded {
 	-webkit-border-radius: 4px;
@@ -869,6 +871,10 @@ blockquote::before {
 	z-index: -1;
 }
 /* 10. Service box wrap */
+#service {
+	background-color: #fbfbfb;
+}
+
 .service-image {
 	font-size: 50px;
 	margin: 0 auto;
@@ -892,7 +898,7 @@ blockquote::before {
 	vertical-align: middle;
 }
 .service-title {
-	padding: 14px 0;
+	padding: 7px 0;
 }
 .service-box-col:hover .service-image {
 	background-color: #084296;
@@ -932,6 +938,28 @@ blockquote::before {
 .service-box-col {
 	margin-bottom: 30px;
 }
+/* 10-2. Card */
+.services {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.service-card {
+	background-color: #fff;
+	box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.3);
+	width: 300px;
+	margin: 1rem;
+}
+
+.card-content {
+	padding: 1rem;
+}
+
+figure img {
+	width: 100%;
+}
+
 /* 11. Portfolio */
 .portfolio-button-set a:active,
 .portfolio-button-set a:focus,
