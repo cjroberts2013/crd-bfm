@@ -952,6 +952,10 @@ blockquote::before {
 	margin: 1rem;
 }
 
+.service-card:hover {
+	transform: translateY(-5px);
+}
+
 .card-content {
 	padding: 1rem;
 }
