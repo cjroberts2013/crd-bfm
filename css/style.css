@@ -833,7 +833,7 @@ ul.star-list > li:hover:before {
 	color: #03a61c;
 }
 ul.star-list > li:before {
-	content: "\f006";
+	content: "\f138";
 	font-family: FontAwesome;
 	height: 30px;
 	left: 0;
