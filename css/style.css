@@ -1237,6 +1237,7 @@ figure img {
 }
 .testimonial-image.img-thumbnail {
 	background-color: transparent;
+	border: none !important;
 }
 .testimonial-title > span {
 	color: #ccc;
@@ -1256,7 +1257,6 @@ figure img {
 	display: inline-block;
 }
 .owl-dot > span {
-	border: 1px solid #333;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
