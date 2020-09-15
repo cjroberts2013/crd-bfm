@@ -952,6 +952,14 @@ blockquote::before {
 	box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.3);
 	width: 300px;
 	margin: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.service-card a {
+	margin-bottom: 10px;
 }
 
 .service-card:hover {
